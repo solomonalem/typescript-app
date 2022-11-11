@@ -1,13 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+button {
+	padding: 15px 50px;
+	font-weight: bold;
+	background-color: rgb(138, 219, 176);
+	border: none;
+	border-radius: 10px;
+}
+
+.form-input {
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: space-between;
+	padding: 30px;
+	background-color: rgb(203, 238, 230);
+}
+.form-input input {
+	margin: 30px;
+	background-color: rgb(240, 251, 247);
+	padding: 14px;
+	outline: none;
+	border: none;
+	font-size: 1.2rem;
+}
+.form-input button {
+	width: 90%;
+	margin: 30px;
+}
+.form-input li {
+	margin: 8px 0 0 30px;
+	background-color: rgb(231, 247, 245);
+	padding: 10px;
+	border-radius: 10px;
+	text-transform: capitalize;
 }
